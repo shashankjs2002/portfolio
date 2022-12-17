@@ -5,7 +5,7 @@ import portfolioIcon from './assets/favicons/android-chrome-512x512.png'
 import _10NewsIcon from './assets/10NewsIcon.png'
 import myEnotesIcon from './assets/myEnotesIcon.png'
 
-const Projects = () => {
+const Projects = (props) => {
 
   return (
     <div className='projects skills' id='projects'>
@@ -35,12 +35,21 @@ const Projects = () => {
                 </div>
             </div>
 
+            <div className="card col-md-4 mx-3 my-3" style={{background:'#493434'}}>
+            <p>Space for google ads</p>
             <ins class="adsbygoogle"
-                style="display:block"
+                style={{display:"block"}}
                 data-ad-format="fluid"
                 data-ad-layout-key="+3l+p8-2p-6f+12g"
                 data-ad-client="ca-pub-6847172398832884"
                 data-ad-slot="3665300344"></ins>
+                
+                
+                <script>
+
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
             <div className="card col-md-4 mx-3 my-3" style={{background:'#493434'}}>
                 <img src={myEnotesIcon} className="card-img-top" alt="..."/>
                 <div className="card-body">

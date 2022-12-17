@@ -18,6 +18,12 @@ function App() {
       <hr/>
       <Projects/>
       <hr/>
+      {/* <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="+3l+p8-2p-6f+12g"
+     data-ad-client="ca-pub-6847172398832884"
+     data-ad-slot="3665300344"></ins> */}
       <Contact/>
       
       </div>

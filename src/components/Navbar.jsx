@@ -35,7 +35,7 @@ const Navbar = () => {
                 {/* <i class="fa-solid fa-rectangle-history"></i> */}
                 <a href='#skill'><i className="fa-solid fa-address-card"></i></a>
                 <a href="#projects"><i className="fa-solid fa-book"></i></a>
-                <a href="#contact"><i class="fa-solid fa-location-dot"></i></a>
+                <a href="#contact"><i className="fa-solid fa-location-dot"></i></a>
                 </div>
             </ul>
         
