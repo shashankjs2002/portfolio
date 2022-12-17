@@ -1,7 +1,9 @@
 import React from 'react'
 import MeriFotu from './assets/fotu2.png'
 
+
 const Home = () => {
+  // document.getElementById('home').style.height = window.innerHeight
   return (
     <div className='' id='home'>
     
@@ -16,7 +18,7 @@ const Home = () => {
           </div>
         </div>
         <div className='fotu' style={{justifyContent: "center", display:"flex"}}>
-          <img src={MeriFotu} alt="" />
+          {/* <img src={MeriFotu} alt="" /> */}
         </div>
     </div>
   )

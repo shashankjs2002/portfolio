@@ -3,6 +3,7 @@
 *{
     /* font-family: 'Lobster', 'Roboto'; */
     color: bisque;
+    
 }
 .home{
     background: linear-gradient(135deg, rgba(73, 2, 135, 0.686) ,  rgb(25, 1, 30), rgba(73, 2, 135, 0.784) );
@@ -14,8 +15,12 @@
 
 #home{
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
     height: 100vh;
+    background: linear-gradient(135deg, rgb(59 80 4 / 55%) , rgb(22 2 2 / 54%), rgba(73, 2, 135,-4.8) );
+    background-attachment: fixed;
 }
 .home .name {
     padding-top: 50px;
@@ -33,10 +38,21 @@
 }
 
 .fotu{
+    width: 210px;
+    position: fixed;
+    z-index: -1;
+    right: 0;
+
+
     justify-content: center;
     display: flex;
-    height: max-content;
+    /* height: max-content; */
+    height: 291px;
     align-self: end;
+    background: url('../assets/fotu2.png');
+
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .fotu img {
@@ -50,8 +66,9 @@
     display: flex;
     justify-content: space-around;
     height: 100vh;
-    background: linear-gradient(135deg, rgb(59 80 4 / 55%) , rgb(22 2 2 / 54%), rgba(73, 2, 135,-4.8) );
+    /* background: linear-gradient(135deg, rgb(59 80 4 / 55%) , rgb(22 2 2 / 54%), rgba(73, 2, 135,-4.8) ); */
     background-attachment: fixed;
+    /* background: url('../assets/portfolio_bg.png') no-repeat center; */
 }
 /* .right{
 
