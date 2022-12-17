@@ -35,7 +35,7 @@ const Projects = (props) => {
                 </div>
             </div>
 
-            <div className="card col-md-4 mx-3 my-3" style={{background:'#493434'}}>
+            {/* <div className="card col-md-4 mx-3 my-3" style={{background:'#493434'}}>
             <p>Space for google ads</p>
             <ins class="adsbygoogle"
                 style={{display:"block"}}
@@ -49,7 +49,7 @@ const Projects = (props) => {
 
                 (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
-            </div>
+            </div> */}
             <div className="card col-md-4 mx-3 my-3" style={{background:'#493434'}}>
                 <img src={myEnotesIcon} className="card-img-top" alt="..."/>
                 <div className="card-body">
