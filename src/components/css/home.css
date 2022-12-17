@@ -18,7 +18,7 @@
     flex-wrap: wrap;
     flex-wrap: wrap;
     /* justify-content: space-around; */
-    height: 100vh;
+    /* height: 100vh; */
     background: linear-gradient(135deg, rgb(59 80 4 / 55%) , rgb(22 2 2 / 54%), rgba(73, 2, 135,-4.8) );
     background-attachment: fixed;
 }
