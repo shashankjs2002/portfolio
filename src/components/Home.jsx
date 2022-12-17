@@ -4,6 +4,7 @@ import MeriFotu from './assets/fotu2.png'
 
 const Home = () => {
   // document.getElementById('home').style.height = window.innerHeight
+  document.getElementById('home').style.height = `${window.innerHeight}px`
   return (
     <div className='' id='home'>
     

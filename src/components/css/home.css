@@ -106,8 +106,8 @@
 
 .bottom {
     /* background: linear-gradient(135deg, rgba(73, 2, 135, 0.686) , rgb(25, 1, 30), rgba(73, 2, 135) ); */
-    background: linear-gradient(135deg, rgb(59 80 4 / 55%) , rgb(159 101 101), rgba(73, 2, 135) );    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: linear-gradient(135deg, rgb(30 3 46) , rgb(159 101 101), rgba(73, 2, 135) );    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
     /* height: 100vh; */
 }
 
