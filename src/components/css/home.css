@@ -190,7 +190,7 @@
         display: inline-block;  
 } */
 
-.btn-primary{
+.btn-danger{
     position: absolute;
     bottom: 15px;
 }
@@ -216,14 +216,16 @@
     font-weight: bolder;
 }
 
-.btn{
+/* .btn{
     background: crimson;
     border-color: red;
 }
 
+
+
 .btn:hover{
     background-color: red;
-}
+} */
 
 
 @media screen and (max-width: 770px) {

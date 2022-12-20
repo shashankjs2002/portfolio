@@ -1,6 +1,6 @@
 import React from 'react'
-import { Container } from 'semantic-ui-react';
-import {ScrollMenu} from 'react-horizontal-scrolling-menu'
+// import { Container } from 'semantic-ui-react';
+// import {ScrollMenu} from 'react-horizontal-scrolling-menu'
 import portfolioIcon from './assets/favicons/android-chrome-512x512.png'
 import _10NewsIcon from './assets/10NewsIcon.png'
 import myEnotesIcon from './assets/myEnotesIcon.png'
@@ -18,7 +18,7 @@ const Projects = (props) => {
                 <div className="card-body">
                     <h5 className="card-title">Portfolio Website</h5>
                     <p className="card-text">Portfolio website to showcase my skills and Projects developed in React.js. Anybody can contact me just by filling embedded google form.</p>
-                    <a href="#" className="btn btn-primary">Visit --&gt; </a>
+                    <a href="#" className="btn btn-danger">Visit --&gt; </a>
                 </div>
             </div>
             <div className="card col-md-4 mx-3 my-3" style={{background:'#493434'}}>
@@ -31,7 +31,7 @@ const Projects = (props) => {
                     Search parameters are passed to various components using
                     Context API.
                     </p>
-                    <a href="#" className="btn btn-primary">Visit --&gt;</a>
+                    <a target='_blank' href="https://10news.shashankjsirothiya.tk/" className="btn btn-danger">Visit --&gt;</a>
                 </div>
             </div>
 
@@ -59,7 +59,7 @@ User can login and fetch their notes from any device.
 Display username of logged in user using Context API.
 Component like modal is reused for adding and updating note.
 </p>
-                    <a href="#" className="btn btn-primary">Visit --&gt;</a>
+                    <a target='_blank' href="https://github.com/shashankjs2002/My-Notes" className="btn btn-danger">Visit --&gt;</a>
                 </div>
             </div>
         
