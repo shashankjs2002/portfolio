@@ -33,3 +33,10 @@ function App() {
 }
 
 export default App;
+
+// Respected HR,
+// With knowledge of Frontend development and Reactjs, I want to be a part of your organization.
+// I have developed my portfolio website in React with embedded message form that receives responses via google form. Also, my project named 10-news uses news API to fetch news with search functionalities.  My-e-Notes, one of my Node.js project uses authentication such that login user can perform CRUD operations. Please checkout my portfolio link - 'https://shashankjsirothiya.tk/'.
+
+// Yours Truely
+// Shashank J. Sirothiya
